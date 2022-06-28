@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbcfd2cc-554a-42dc-9ae0-1655901fff68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/Monster_Common.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map/Monster_Unique.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NewClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Map/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Map/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,11 @@
         <option value="Park" />
       </list>
     </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,19 +46,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/User/Desktop/파이썬/MyProject",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "vcs.Git"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/파이썬/MyProject&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\파이썬\MyProject" />
@@ -92,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656312415357</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="몬스터 잡기">
+      <created>1656319431592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1656319431592</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +123,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes" />
+    <MESSAGE value="몬스터 잡기" />
+    <option name="LAST_COMMIT_MESSAGE" value="몬스터 잡기" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

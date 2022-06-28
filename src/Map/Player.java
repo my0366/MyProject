@@ -13,14 +13,16 @@ public class Player {
     public int atkDefault = 15;
 
     public int attack() {
-        return this.atkDefault;
+        return this.atkDefault + r.nextInt(atkDefault);
     }
 
     public void checkHP() {
         if (this.hp < 1) {
-            System.out.println(this.name + "이(가) 죽었습니다.");
+            System.out.println(this.name + "이 죽었습니다.");
             this.isLive = false;
-            this.hp = 0;	// 사망시 HP 마이너스 된 값 0으로 보정.
+            this.hp = 0;
+        } else {
+            System.out.println(this.name +" 님의 남은 체력 : " + this.hp);
         }
     }
 }
